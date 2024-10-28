@@ -24,6 +24,14 @@ const discountJunior = 20;
 const discountSenior = 40;
 const juniorAge = 17;
 const oldAge = 65;
-const km = prompt("Quanti Km vuoi percorrere?")
- 
 
+const km = parseInt (prompt("Quanti Km vuoi percorrere?"))
+console.log(km);
+
+
+const age = parseInt (prompt("Qual è la tua età"))
+console.log(age);
+
+// calcolare il prezzo intero
+let totalPrice = priceKm * km 
+console.log(totalPrice)
