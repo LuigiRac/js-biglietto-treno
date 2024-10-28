@@ -26,12 +26,26 @@ const juniorAge = 17;
 const oldAge = 65;
 
 const km = parseInt (prompt("Quanti Km vuoi percorrere?"))
-console.log(km);
+console.log("Kilometri: " + km);
 
 
 const age = parseInt (prompt("Qual è la tua età"))
-console.log(age);
+console.log("Eta: " + age);
 
-// calcolare il prezzo intero
+// Calcolare il prezzo intero
 let totalPrice = priceKm * km 
-console.log(totalPrice)
+console.log(" totale: " + totalPrice)
+
+
+// Condizioni
+
+if (age < juniorAge) {
+    // trovare il prezzo scontato del 20% discountJunior
+    const priceKmJunior = (priceKm  - ( discountJunior * priceKm / 100));  // 0,21 - (20 * 0,21 / 100) = 0,21 - 0,042 = 0,168
+
+    // calcolo prezzo scontato del
+    totalPrice = priceKmJunior * km;
+}
+
+
+console.log("Prezzo totale: " + totalPrice.toFixed(2) + "€");
