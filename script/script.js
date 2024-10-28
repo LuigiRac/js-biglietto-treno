@@ -6,3 +6,14 @@
 // // - L'output del prezzo finale va messo fuori in forma umana (con massimo due decimali, per indicare centesimi sul prezzo). Questo richiederà un minimo di ricerca.
 
 console.log("Hello World")
+/* Obbiettivo: output prezzo del viaggio (max 2 decimali)
+Variabili: 
+
+Racccolta Dati
+1. finalPrice = output finale
+2. Constante = prezzo per km (priceKm = 0.21)
+3. Constante = discount < 20% (discountJunior)
+4. Constante = discount > 40% (discountSenior)
+5. Constante = junior age < 18 anni (juniorAge)
+6. Constante = Old age > 65 anni (oldAge)
+*/
