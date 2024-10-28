@@ -48,4 +48,12 @@ if (age < juniorAge) {
 }
 
 
+else if (age > oldAge) {
+    const priceKmSenior = (priceKm  - ( discountSenior * priceKm / 100));
+
+    totalPrice = priceKmSenior * km
+
+}
+
+
 console.log("Prezzo totale: " + totalPrice.toFixed(2) + "€");
