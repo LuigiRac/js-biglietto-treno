@@ -24,3 +24,6 @@ const discountJunior = 20;
 const discountSenior = 40;
 const juniorAge = 17;
 const oldAge = 65;
+const km = prompt("Quanti Km vuoi percorrere?")
+ 
+
