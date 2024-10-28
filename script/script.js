@@ -17,3 +17,10 @@ Racccolta Dati
 5. Constante = junior age < 18 anni (juniorAge)
 6. Constante = Old age > 65 anni (oldAge)
 */
+
+/*  Esecuzione */
+const priceKm = 0.21;
+const discountJunior = 20;
+const discountSenior = 40;
+const juniorAge = 17;
+const oldAge = 65;
