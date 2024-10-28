@@ -9,7 +9,7 @@ console.log("Hello World")
 /* Obbiettivo: output prezzo del viaggio (max 2 decimali)
 Variabili: 
 
-Racccolta Dati
+Racccolta Dati:
 1. finalPrice = output finale
 2. Constante = prezzo per km (priceKm = 0.21)
 3. Constante = discount < 20% (discountJunior)
